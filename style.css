@@ -1,0 +1,25 @@
+.container{
+  font-family: 'Open Sans', sans-serif;
+}
+.Page {
+  text-align: center;
+}
+.title {
+ text-align: left;
+}
+
+span {
+  color: #E1624F
+}
+
+h2 {
+  text-align: left;
+}
+h4 {
+  text-align: left;
+  color: #E1624F
+}
+
+h3 {
+  text-align: left;
+}
