@@ -1,15 +1,92 @@
-.container{
+body {
   font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
-.Page {
-  text-align: center;
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 40px; /* Adicionado para evitar que os elementos encostem nas bordas */
 }
+
+.page {
+ text-align: center;
+ padding: 40px;
+ 
+}
+
 .title {
  text-align: left;
 }
 
-span {
-  color: #E1624F
+.title span {
+  color: #E1624F;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.title h1 {
+  font-size: 36px;
+  margin: 0px;
+}
+
+.busan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.busan img {
+  max-width: 100%; /* Garantir que a imagem não ultrapasse o contêiner */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #D9D9D9;
+}
+
+.lugares-imperdiveis {
+  padding: 0;
+  text-align: start;
+  margin-top: 40px;
+}
+
+.Yonggungsa li {
+  text-align: left;
+  color: #0C51A7;
+  font-weight: 700;
+  margin-bottom: 48px;
+  max-width: 100%;
+}
+
+.Beomeo-sa li{
+  text-align: left;
+  color: #0C51A7;
+  font-weight: 700;
+  margin-bottom: 48px;
+  max-width: 100%;
+}
+
+.casais{
+  color: #591B98;
+  font-weight: 700;
+}
+
+.Familias{
+  color: #E5245E;
+  font-weight: 700;
+}
+
+.Orçamento{
+  color: #E95E10;
+  font-weight: 700;
 }
 
 h2 {
@@ -17,9 +94,15 @@ h2 {
 }
 h4 {
   text-align: left;
-  color: #E1624F
+  color: #E1624F;
 }
 
 h3 {
   text-align: left;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding-bottom: 20px;
 }
